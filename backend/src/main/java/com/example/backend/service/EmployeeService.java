@@ -4,6 +4,6 @@ import com.example.backend.entity.Employee;
 
 import java.util.List;
 
-interface EmployeeService {
+public interface EmployeeService {
     public List<Employee> getEmployees();
 }
